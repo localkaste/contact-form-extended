@@ -1,0 +1,26 @@
+{
+  "name": "localkaste/contact-form-extended",
+  "description": "Extending craftcms/contact-form plugin.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "require": {
+    "craftcms/cms": "^3.0.0-RC11",
+    "craftcms/contact-form": "^2.2.6",
+    "wixel/gump": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "contactformextended\\": "src/"
+    }
+  },
+  "support": {
+    "email": "localkaste@gmail.com"
+  },
+  "extra": {
+    "handle": "contact-form-extended",
+    "name": "Contact Form Extended",
+    "developer": "Carl`",
+    "class": "contactformextended\\ContactFormExtended"
+  }
+}
