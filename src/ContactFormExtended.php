@@ -17,13 +17,13 @@ class ContactFormExtended extends Plugin
 {
     public static $plugin;
 
-    public $schemaVersion = '1.1.0';
+    public $schemaVersion = '1.0.0';
 
     public $hasCpSettings = true;
 
     protected $validator = null;
 
-    // testing versioning again
+    // testing versioning
 
     public function init()
     {
