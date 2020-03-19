@@ -23,6 +23,8 @@ class ContactFormExtended extends Plugin
 
     protected $validator = null;
 
+    // testing versioning
+
     public function init()
     {
         parent::init();
