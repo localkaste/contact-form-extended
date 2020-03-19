@@ -2,10 +2,9 @@
   "name": "localkaste/contact-form-extended",
   "description": "Extending craftcms/contact-form plugin.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "craft-plugin",
   "require": {
-    "craftcms/cms": "^3.0.0-RC11",
     "craftcms/contact-form": "^2.2.6",
     "wixel/gump": "^1.9"
   },
